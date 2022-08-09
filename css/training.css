@@ -1,0 +1,750 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: Graphik_Reg;
+  src: url("../Graphik-Font-Family/GraphikRegular.otf");
+}
+@font-face {
+  font-family: Graphik_Bold;
+  src: url("../Graphik-Font-Family/GraphikBold.otf");
+}
+
+@font-face {
+  font-family: Graphik_Black;
+  src: url("../Graphik-Font-Family/GraphikBlack.otf");
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(255, 253, 245);
+}
+
+.red-text {
+  color: #e7332b;
+}
+
+.training-circle {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 0.8rem solid #e7332b;
+  background-color: #e7736dee;
+  z-index: 5;
+}
+
+.training-circle-support {
+  width: 150px;
+  height: 48px;
+  padding: 0.4rem 1.7rem;
+  background-color: #e7332b;
+  margin-left: -1.3rem;
+  border-radius: 18px;
+  font-size: 18px;
+  font-family: Graphik_Reg;
+}
+
+.hero-section .girl-img,
+.hero-section .boy-img {
+  max-width: 100%;
+  padding-top: 150px;
+}
+
+.hero-center .red-text {
+  font-size: 18px;
+  font-family: Graphik_Reg;
+}
+
+.hero-center .hero-center-bold {
+  font-size: 40px;
+  font-family: Graphik_Bold;
+}
+
+.hero-center .line {
+  max-width: 30%;
+  height: auto;
+}
+
+.hero-center .line img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-center .hero-center-basic {
+  font-size: 18px;
+  font-family: Graphik_Reg;
+  color: #585757;
+  padding: 20px 80px;
+  line-height: 1.2rem;
+}
+
+.hero-center .enroll-btn {
+  background-color: #e7332b;
+  font-family: Graphik_Reg;
+}
+
+.hero-center .enroll-wire {
+  max-width: 80px;
+  height: auto;
+  left: 10%;
+}
+
+.hero-center .enroll-wire img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-center .boy-brown {
+  left: 20%;
+  bottom: 3rem;
+}
+
+.powered-section .ingressive {
+  font-size: 24px;
+  font-family: Graphik_Reg;
+  padding: 30px 0 0;
+}
+
+.powered-section img {
+  width: 250px;
+  height: 250px;
+}
+.powered-section .read-more {
+  font-size: 24px;
+  font-family: Graphik_Reg;
+  line-height: 2rem;
+}
+.powered-section .read {
+  color: #43b97f;
+  text-decoration: underline;
+}
+
+.whyZuri-section .wire {
+  max-width: 90px;
+  height: auto;
+  margin-left: 250px;
+}
+
+.whyZuri-section .red-text {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.whyZuri-section .bold {
+  font-size: 30px;
+  font-family: Graphik_Bold;
+  margin: 10px 0;
+  padding: 0;
+  line-height: 2.7rem;
+}
+
+.whyZuri-section .star {
+  max-width: 200px;
+  height: auto;
+  padding-top: 50px;
+}
+
+.whyZuri-section .merit .col-xl-4 {
+  width: 31.3%;
+}
+
+.whyZuri-section .merit-item {
+  border-radius: 1.7rem;
+  padding: 1.5rem 2.4rem;
+  transition: 0.3s;
+  flex: 1 1 21.4rem;
+  margin: 1.5rem 0.6rem;
+  box-shadow: 0 0.2rem 1rem #fdd;
+}
+
+.whyZuri-section .merit-item:hover {
+  transform: translateY(-1.5rem);
+}
+
+.whyZuri-section .merit-item:nth-child(1) {
+  background-color: #e7332b;
+}
+
+.whyZuri-section .merit-item-img {
+  right: -0.8px;
+  top: 0;
+}
+
+.whyZuri-section .merit-item-img img {
+  width: 120px;
+  height: 120px;
+}
+
+.whyZuri-section .merit .merit-number {
+  font-size: 60px;
+  font-family: Graphik_Bold;
+}
+
+.whyZuri-section .merit .merit-heading {
+  font-size: 36px;
+  font-family: Graphik_Reg;
+  padding: 20px 0 36px;
+  width: 60%;
+  font-weight: 500 !important;
+}
+
+.whyZuri-section .merit .merit-text {
+  font-size: 18px;
+  font-family: Graphik_Reg;
+}
+
+.quality-section {
+  background-color: #e7332b;
+}
+
+.quality-section .quality-wire {
+  margin-left: 300px;
+}
+
+.quality-section .quality-wire img {
+  width: 100px;
+  height: 100px;
+}
+
+.quality-section .quality-btn {
+  font-family: Graphik_Reg;
+  font-size: 16px;
+  width: 30%;
+  color: #e7332b;
+}
+
+.quality-section .quality-item-button {
+  border: 3px solid #fff;
+  width: 100%;
+  cursor: not-allowed;
+}
+
+.quality-section .quality-item-button img {
+  width: 40px;
+  height: 40px;
+}
+
+.quality-section .dotted-img {
+  max-width: 10%;
+  bottom: 2rem;
+  left: 2rem;
+  z-index: 3;
+  margin-left: 30px;
+}
+
+.program-section .red-text {
+  font-size: 24px;
+}
+
+.program-section h3 {
+  padding-top: -20px;
+  font-size: 40px;
+  font-weight: bolder;
+  width: 50%;
+}
+
+.program-section .program-wire img {
+  width: 120px;
+  height: 120px;
+}
+
+.program-item {
+  width: 31.33333%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.program-section .program-item {
+  border-radius: 2rem;
+  padding: 0 20px;
+}
+
+.program-section .program-item img {
+  width: 60px;
+  height: 60px;
+}
+
+.program-section .program-item .program-item-heading {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.program-section .program-item .program-item-text {
+  font-size: 16px;
+  font-family: Graphik_Reg;
+  padding-bottom: 10px;
+}
+
+.program-section .program-btn {
+  background-color: #e7332b;
+  font-family: Graphik_Reg;
+  width: 15%;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.faq-section .faq-heading .faq-heading-img {
+  margin-left: 20% !important;
+  margin-top: -20px !important;
+}
+
+.faq-section .faq-tweet {
+  display: flex;
+  justify-content: center;
+}
+
+.faq-heading-img img {
+  width: 140px;
+  height: 140px;
+}
+
+.faq-heading .red-text {
+  font-size: 24px;
+  margin: -50px 0 0 0;
+  font-weight: 400;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.faq-heading h2 {
+  font-size: 40px;
+  font-family: Graphik_Bold;
+  padding-bottom: 100px;
+}
+
+.accordion-button::after {
+  background-image: url("https://img.icons8.com/android/2x/plus.png");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("https://img.icons8.com/android/2x/plus.png");
+}
+
+.faq-section .faq-table {
+  width: 85%;
+}
+
+.faq-table .accordion {
+  --bs-accordion-bg: rgb(255, 253, 245);
+  --bs-accordion-active-bg: none;
+  --bs-accordion-active-color: none;
+  --bs-accordion-btn-focus-border-color: none;
+  --bs-accordion-border-radius: 0rem;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-border-color: rgba(71, 44, 111, 0.43) !important;
+  --bs-accordion-border-width: 1px;
+}
+
+.faq-table .accordion-header {
+  font-size: 18px;
+  font-family: Graphik_Bold;
+}
+.faq-section .faq-tweet p {
+  color: #333333;
+  font-size: 18px;
+  font-family: Graphik_Reg;
+  margin-top: 10px;
+}
+.faq-section .faq-tweet .tweet-btn {
+  background-color: #e7332b;
+  font-family: Graphik_Reg;
+  width: 22%;
+  padding: 14px 32px;
+}
+
+@media (max-width: 1024px) {
+  .hero-section .girl-img {
+    max-width: 100%;
+    padding-top: 0px;
+    padding-left: 130px;
+  }
+
+  .hero-section .girl-img img {
+    height: 700px;
+    width: 700px;
+  }
+
+  .hero-center .red-text {
+    margin-top: -75px;
+  }
+
+  .hero-center .hero-center-bold {
+    margin: 0 -150px;
+  }
+
+  .hero-center .line {
+    max-width: 40%;
+    height: auto;
+  }
+
+  .hero-center .line img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-center .hero-center-basic {
+    padding: 20px 0 0px;
+    line-height: 1.2rem;
+    margin: 0 -120px;
+    line-height: 2rem;
+  }
+
+  .hero-section .boy-img {
+    display: none;
+  }
+
+  .hero-center .enroll-btn {
+    margin: 20px 0;
+  }
+  .hero-center .enroll-wire {
+    max-width: 100px;
+    height: auto;
+    left: 30%;
+  }
+
+  .hero-center .boy-brown {
+    left: 5%;
+    bottom: 3rem;
+  }
+
+  .hero-section .boy-brown img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .powered-section .ingressive {
+    font-size: 20px;
+  }
+
+  .powered-section .read-more {
+    font-size: 18px;
+    line-height: 1.7rem;
+    padding: 10px 0;
+  }
+
+  .whyZuri-section .star {
+    padding-top: 70px;
+  }
+
+  .quality-section .quality-btn {
+    width: 15%;
+  }
+
+  .program-item {
+    width: 48%;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .program-section .red-text {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .program-section h3 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .faq-heading .red-text {
+    font-size: 20px;
+  }
+
+  .faq-heading h2 {
+    font-size: 30px;
+    padding-bottom: 80px;
+  }
+
+  .faq-section .faq-tweet .tweet-btn {
+    width: 23%;
+  }
+}
+
+@media (max-width: 780px) {
+  .hero-section .girl-img {
+    max-width: 100%;
+    padding-top: 0px;
+    padding-left: 70px;
+  }
+  .hero-section .girl-img img {
+    height: 500px;
+    width: 500px;
+  }
+
+  .hero-center .red-text {
+    margin-top: -30px;
+    font-size: 16px;
+  }
+
+  .hero-center .hero-center-bold {
+    margin: 0 0px;
+    line-height: 2.3rem;
+  }
+
+  .hero-center .hero-center-basic {
+    padding: 20px 60px;
+    margin: 0 50px;
+    font-size: 16px;
+  }
+
+  .hero-center .enroll-btn {
+    padding: 10px 32px;
+  }
+
+  .hero-center .enroll-wire {
+    max-width: 120px;
+    height: auto;
+    left: 10%;
+  }
+
+  .hero-center .boy-brown {
+    left: 5%;
+    bottom: 3rem;
+  }
+
+  .hero-section .boy-brown img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .powered-section .ingressive {
+    text-align: center;
+  }
+
+  .powered-section .read-more {
+    padding: 0 0;
+  }
+  .whyZuri-section {
+    padding: 0 10px;
+  }
+  .whyZuri-section .star {
+    display: none;
+  }
+
+  .whyZuri-section .red-text {
+    font-size: 18px;
+  }
+
+  .whyZuri-section .bold {
+    font-size: 24px;
+    line-height: 2rem;
+  }
+
+  .whyZuri-section .wire {
+    margin-top: 20px;
+  }
+
+  .whyZuri-section .merit-item {
+    padding: 50px;
+  }
+
+  .whyZuri-section .merit-item-img img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .quality-section .quality-btn {
+    width: 20%;
+  }
+
+  .quality-section .quality-item-button {
+    width: 70%;
+    cursor: not-allowed;
+  }
+
+  .program-item {
+    width: 100%;
+  }
+
+  .program-section .program-btn {
+    width: 20%;
+  }
+
+  .program-section .red-text {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .program-section h3 {
+    font-size: 24px;
+    width: 60%;
+  }
+
+  .program-section .program-wire {
+    margin-top: -50px !important;
+  }
+
+  .faq-section .faq-table {
+    width: 100%;
+  }
+
+  .faq-heading h2 {
+    font-size: 24px;
+  }
+
+  .faq-section .faq-tweet .tweet-btn {
+    width: 35%;
+  }
+}
+
+@media (max-width: 430px) {
+  .training-logo {
+    width: 180px;
+  }
+
+  .training-circle {
+    width: 4.2rem;
+    height: 4.2rem;
+  }
+
+  .training-circle-support {
+    font-size: 15px;
+    width: 125px;
+    height: 48px;
+    padding: 0.7rem 1.5rem;
+    margin-left: -1.5rem;
+    text-align: center;
+  }
+
+  .hero-section .girl-img img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .hero-center .red-text {
+    margin-top: 0px;
+  }
+  .hero-center .line {
+    max-width: 30%;
+    height: auto;
+  }
+
+  .hero-center .hero-center-bold {
+    font-size: 28px;
+  }
+
+  .hero-center .hero-center-basic {
+    padding: 20px 0px;
+    margin: 0 0px;
+    line-height: 1.4rem;
+  }
+
+  .hero-center .enroll-wire {
+    max-width: 50px;
+    height: auto;
+    left: 10%;
+  }
+
+  .hero-center .boy-brown {
+    display: none;
+  }
+
+  .powered-section img {
+    margin-left: 80px;
+    width: 200px;
+    height: 180px;
+  }
+
+  .powered-section .read-more {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .whyZuri-section .wire {
+    max-width: 50px;
+    height: auto;
+    margin-left: 150px;
+  }
+
+  .whyZuri-section .merit-item {
+    padding: 20px 20px;
+  }
+
+  .whyZuri-section .merit-item-img img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .quality-section {
+    padding: 0 2px;
+  }
+
+  .quality-section .quality-btn {
+    width: 30%;
+  }
+
+  .quality-item {
+    margin: 0;
+    padding: 0;
+  }
+
+  .quality-section .quality-item-button {
+    width: 80%;
+    cursor: not-allowed;
+    font-size: 13px;
+  }
+
+  .quality-section .quality-item-button img {
+    width: 30px;
+    height: 30px;
+  }
+  .program-section h3 {
+    width: 100%;
+  }
+
+  .program-section .program-wire {
+    margin-top: -30px !important;
+  }
+
+  .program-item {
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  .program-section .program-btn {
+    width: 30%;
+  }
+
+  .faq-section .faq-tweet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .faq-section .faq-tweet .tweet-btn {
+    width: 60%;
+    padding: 8px 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .training-logo {
+    width: 130px;
+  }
+  .training-circle-support {
+    font-size: 15px;
+    width: 125px;
+    height: 48px;
+    padding: 0.7rem 1.5rem;
+    margin-left: -1.5rem;
+    text-align: center;
+  }
+
+  .program-item {
+    width: 100%;
+  }
+
+  .program-section .program-btn {
+    width: 40%;
+  }
+
+  .program-item {
+    width: 85%;
+    margin-left: 30px;
+    margin-right: 0px;
+  }
+}
