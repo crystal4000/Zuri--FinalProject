@@ -14,10 +14,15 @@
 }
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 body {
   background: rgb(255, 253, 245);
+  width: 100vw;
+  height: 100vh;
 }
 
 .red-text {
@@ -81,6 +86,7 @@ body {
 .hero-center .enroll-btn {
   background-color: #e7332b;
   font-family: Graphik_Reg;
+  padding: 10px;
 }
 
 .hero-center .enroll-wire {
@@ -199,6 +205,10 @@ body {
   background-color: #e7332b;
 }
 
+.quality-section h1 {
+  overflow: hidden;
+}
+
 .quality-section .quality-wire {
   margin-left: 300px;
 }
@@ -213,12 +223,14 @@ body {
   font-size: 16px;
   width: 30%;
   color: #e7332b;
+  padding: 10px;
 }
 
 .quality-section .quality-item-button {
   border: 3px solid #fff;
-  width: 100%;
+  width: 90%;
   cursor: not-allowed;
+  padding: 10px;
 }
 
 .quality-section .quality-item-button img {
@@ -243,6 +255,7 @@ body {
   font-size: 40px;
   font-weight: bolder;
   width: 50%;
+  overflow: hidden;
 }
 
 .program-section .program-wire img {
@@ -283,6 +296,7 @@ body {
   width: 15%;
   text-align: center;
   margin-top: 80px;
+  padding: 10px;
 }
 
 .faq-section .faq-heading .faq-heading-img {
@@ -356,7 +370,7 @@ body {
 @media (max-width: 1024px) {
   .hero-section .girl-img {
     max-width: 100%;
-    padding-top: 0px;
+    margin-top: 0px;
     padding-left: 130px;
   }
 
@@ -465,7 +479,7 @@ body {
 @media (max-width: 780px) {
   .hero-section .girl-img {
     max-width: 100%;
-    padding-top: 0px;
+    margin-top: 0px;
     padding-left: 70px;
   }
   .hero-section .girl-img img {
@@ -547,11 +561,13 @@ body {
 
   .quality-section .quality-btn {
     width: 20%;
+    padding: 10px 0;
   }
 
   .quality-section .quality-item-button {
     width: 70%;
     cursor: not-allowed;
+    padding: 10px 0;
   }
 
   .program-item {
@@ -674,6 +690,8 @@ body {
 
   .quality-section .quality-btn {
     width: 30%;
+    padding: 10px 10px;
+    text-align: center;
   }
 
   .quality-item {
@@ -685,11 +703,17 @@ body {
     width: 80%;
     cursor: not-allowed;
     font-size: 13px;
+    text-align: center;
+    padding: 10px 15px;
   }
 
   .quality-section .quality-item-button img {
     width: 30px;
     height: 30px;
+  }
+
+  .quality-section .quality-wire {
+    margin-left: 250px;
   }
   .program-section h3 {
     width: 100%;
@@ -700,13 +724,27 @@ body {
   }
 
   .program-item {
-    width: 90%;
-    margin-left: 20px;
     margin-right: 10px;
+    width: 85%;
+    margin-left: 15px;
   }
 
   .program-section .program-btn {
     width: 30%;
+  }
+
+  .faq-heading-img img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .faq-section .faq-heading .faq-heading-img {
+    margin-left: 15% !important;
+    margin-top: -20px !important;
+  }
+
+  .faq-heading .red-text {
+    margin: -40px 0 0 0;
   }
 
   .faq-section .faq-tweet {
@@ -722,6 +760,9 @@ body {
 }
 
 @media (max-width: 380px) {
+  .powered-section img {
+    margin-left: 30px;
+  }
   .training-logo {
     width: 130px;
   }
@@ -733,18 +774,63 @@ body {
     margin-left: -1.5rem;
     text-align: center;
   }
+  .quality-section .quality-wire {
+    margin-left: 150px;
+  }
 
-  .program-item {
-    width: 100%;
+  .quality-section .quality-wire img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .quality-section .quality-item-button {
+    padding: 10px 1px;
   }
 
   .program-section .program-btn {
     width: 40%;
+    padding: 10px;
   }
 
   .program-item {
     width: 85%;
-    margin-left: 30px;
+    margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .whyZuri-section .merit .merit-number {
+    font-size: 44px;
+  }
+
+  .whyZuri-section .merit .merit-heading {
+    font-size: 20px;
+  }
+
+  .whyZuri-section .merit-item-img img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .faq-section .faq-heading .faq-heading-img {
+    margin-left: 10%;
+  }
+
+  .faq-section .red-text {
+    margin: 0px 0 0 0;
+  }
+
+  .faq-heading-img img {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 330px) {
+  .quality-section .quality-item-button {
+    font-size: 10px;
+  }
+
+  .quality-section .quality-btn {
+    padding: 10px 0px;
   }
 }
